@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  html {
+    display: block;
+  }
+  body {
+    margin-bottom: 0;
+    display: block;
+    background-color: #ffffff;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  .member_txt {
+    text-indent: initial;
+    text-align: start;
+    border-color: gray;
+    font-size: 12px;
+    font-family: 굴림,돋움;
+    color: #555;
+    border-width: 0;
+    width: 410px;
+  }
+  .id_popup {
+    padding: 5px 5px 5px 15px;
+    background-color: #222;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: bold;
+    height: 50px;
+  }
+  .id_fine_bar {
+    padding: 18px 16px;
+    line-height: 14pt;
+    height: 44px;
+    background-color: rgb(247, 243, 240);
+    border-spacing: 10px;
+    border-collapse: separate;
+  }
+  .id_fine_bar img {
+    border: 0;
+    border-style: solid;
+    vertical-align: middle;
+  }
+  .id_fine_bar input {
+    padding: 1px 2px;
+    height: 20px;
+  }
+  .id_fine_name{
+    margin-bottom: 8px;
+    width: 153px;
+  }
+  .id_fine_email {
+    width: 223px;
+  }
+  .id_fined_bt {
+    text-align: center;
+    height: 94px;
+    vertical-align: top;
+    align-items: center;
+  }
+  .id_fined_bt img {
+    margin: 10px 0;
+  }
+  .close_bt{
+    height: 28px;
+    background-color: rgb(240, 240, 240);
+    text-align: right;
+  }
+  .close_bt img{
+    margin: 4px 10px;
+    border: 0;
+    border-style: solid;
+  }
+  .close_bt_top{
+    background-color: rgb(240, 240, 240);
+  }

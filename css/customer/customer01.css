@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.contain {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Nanum Gothic', Malgun Gothic, 돋움, 굴림, Open Sans;
+    font-size: 16px;
+    line-height: 1.42857143;
+    color: #777;
+    background-color: #fff;
+}
+.tit-sub01 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500;
+    color: #222;
+    margin: 50px 0 0 0;
+}
+.tit-sub02 {
+    text-align: center;
+    font-size: 13px;
+    font-weight: normal;
+    color: #999;
+    margin: 5px 0 45px 0;
+    font-family: 'Open Sans', Arial, Verdana, sans-serif;
+}
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    border-width: 0;
+    width: 100%;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+select,input,textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    margin: 0;
+    font: inherit;
+    color: inherit;
+}
+option {
+    font-weight: normal;
+    display: block;
+    white-space: nowrap;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+}
+select {
+    text-transform: none;
+}
+textarea {
+    width: 91%;
+    overflow: auto;
+    box-sizing: border-box;
+}
+.box1 {
+    width: 100%;
+    border-top: 3px #666 solid;
+    border-bottom: 0px #999999 solid;
+    border-left: 0px #e5e5e5 solid;
+}
+colgroup {
+    display: table-column-group;
+}
+.box1 col {
+    display: table-column;
+}
+.box1 td {
+    border-bottom: 1px #ddd solid;
+    border-right: 0px #e5e5e5 solid;
+    padding: 4px;
+    color: #555555;
+    font-size: 12px;
+    line-height: 18px;
+}
+tbody td:first-child {
+    background-color: #f7f7f7;
+    width: 20%;
+    text-align: center;
+    color: #555555;
+    font-size: 14;
+    font-weight: bold;
+}
+tbody td:last-child {
+    background-color: #FFFFFF;
+    font-size: 12;
+    color: #333333;
+    padding-left: 10;
+    height: 50px;
+    width: 80%;
+    text-align: start;
+    border: 1px solid #ccc;
+}
+
+.box2 {
+    padding-top: 20px;
+    text-align: center;
+}
+a {
+    color: 5a5a5a;
+    text-decoration: none;
+}
+img {
+    vertical-align: middle;
+    border: 0;
+}
+
+@media (max-width: 1024px) {
+    
+    .contain {
+        font-size: 13px;
+        line-height: 1.42857143;
+        color: #777;
+        background-color: #fff;
+    }
+    .tit-sub01 {
+        font-size: 24px;
+        margin: 30px 0 3px 0;
+    }
+    .tit-sub02 {
+        font-size: 12px;
+        margin: 0 0 30px 0;
+    }
+    input {
+        width: 90%;
+        box-sizing: border-box;
+    }
+}
+
+@media (min-width: 1025px) {
+    .contain {
+        width: 1020px;
+    }
+}
+
+@media (min-width:1280px) {
+    .contain {
+        width: 1200px;
+    }
+}

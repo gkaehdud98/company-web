@@ -1,0 +1,117 @@
+/* 초기화 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+/* 메인 컨테이너 */
+.contain {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    font-family: 'Nanum Gothib', 'Malgun Gothib', 돋움, 굴림, "Open Sans";
+    line-height: 1.42857143;
+    color: rgb(119, 119, 119);
+}
+
+/* 로그인창 전체 컨테이너 */
+.logcontainer {
+    padding: 0 15px;
+    margin: auto;
+}
+
+/* 맨위 로그인 텍스트 */
+.tit-sub01 {
+    font-size: 24px;
+    margin: 30px 0 3px 0;
+    text-align: center;
+    font-weight: 500;
+    color: #222;
+}
+/* 맨위 로그인 텍스트 아래 글귀 */
+.tit-sub02 {
+    font-size: 12px;
+    margin: 0 0 30px 0;
+    text-align: center;
+    font-weight: normal;
+    color: #999;
+    font-family: 'Open Sans', Arial, Verdana, sans-serif;
+}
+/* 로그인 박스 */
+.login_box {
+    border: 1px #ebebeb solid;
+    padding: 40px;
+    text-align: center;
+    margin: 0 auto;
+    font: 12px/1.5em dotum;
+    color: #555;
+}
+/* 입력창 테이블 */
+.login_box table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 100%;
+    display: table;
+    text-indent: initial;
+    white-space: nomal;
+    line-height: normal;
+    font-weight: normal;
+    font-size: medium;
+    font-style: normal;
+    color: -internal-quirk-inherit;
+    text-align: start;
+    border-color: gray;
+    font-variant: normal;
+}
+/* 찾기 컨테이너 */
+.login_box .find {
+border-top: 1px #eaeaea solid;
+margin-top: 25px;
+padding: 25px 44px 0;
+text-align: center;
+font: 11px/1.2em dotum;
+color: #777;
+}
+
+.login_box .txt_01 {
+    text-align: right;
+    padding-right: 10px;
+    font: bold 12px /1em dotum;
+}
+
+.login_box .box {
+    border: 1px #cdcdcd solid;
+    padding: 2px 4px 0;
+    height: 19px;
+    width: 100%;
+    background-color: #f6f6f6;
+}
+
+a{
+    color: #5a5a5a;
+    text-decoration: none;
+}
+
+
+@media (max-width:1024px) {
+    .contain {
+        font-size: 13px;
+        line-height: 1.42857143;
+        color: #777;
+        background-color: #fff;
+    }
+}
+
+@media (min-width :1025px) {
+    .contain {
+        width: 1020px;
+    }
+}
+
+@media (min-width :1280px) {
+    .contain {
+        width: 1200px;
+    }
+}
